@@ -12,26 +12,38 @@ body {
 }
 
 header {
-  background-color:rgb(59, 59, 105);
+  background-color:rgb(19, 19, 56);
   color: white;
   padding: 5px;
 }
 
 h2, 
 h1.class {
-    color:rgb(59, 59, 105);
+    color:rgb(19, 19, 56);
     
 }
 
 p {
     font-size: 16px;
     padding-bottom: 40px;
-    border-bottom:10px solid rgb(59, 59, 105);
-    
+    border-bottom:10px solid rgb(19, 19, 56);
+    font-weight: 100;
+  }
+
+.line {
+    font-weight: 100;
+    text-align: left;
+    color: rgb(55, 55, 119);
+    font-size: 16px;
 }
+
+
 
 .contact {
     text-align: left;
-    border-top: 5px solid rgb(59, 59, 105);
-    margin-top: 20px;
+    border-top: 2px solid rgba(19, 19, 56);
+    margin-top: 0.2px;
+    padding-top: 40px;
+    margin-top: 0.001;
+
 }
