@@ -8,17 +8,22 @@
     <title>Form</title>
 </head>
 <body>
-    <header>
+    
+    <form action="index.html" method="post">
+    <div class="main">
+        <header>
         <h1>THE CODE REVIEW</h1>
     </header>
     <h2>Signup for our newsletter</h2>
     <p>Get our latest news on how your code is doing right in your box</p>
-    
-      <div>
-          <h2 class="contact">Contact Information</h2>
-         </div>
-     <h3 class="line">Full Name</h3>
-        </div>
+</div>
+     <h2 class="contact">Contact Information</h2>
+    <label for="name">Full Name</label><br>
+    <input type="text" id="name" placeholder="Required" name="user_name"><br>
+    <label for="email">Email address</label><br>
+    <input type="text" id="email" placeholder="Required" name="user_email">
+
+    </form>
     
 </body>
 </html>
