@@ -1,8 +1,7 @@
 
 * {
     box-sizing: border-box;
-
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
 
     
 }
@@ -30,27 +29,10 @@ p {
     text-align: center;
 }
 
-.line {
-    font-weight: 100;
-    text-align: left;
-    color: rgb(55, 55, 119);
-    font-size: 16px;
-}
-
-
-
-.contact {
-    text-align: left;
-    border-top: 2px solid black;
-    margin-top: 0.2px;
-    padding-top: 40px;
-    margin-top: 0.001;
-
-}
-
 
 input,
-textarea {
+textarea,
+select {
   font-size: 1em;
   color: black;
   font-weight: 300; 
@@ -71,6 +53,6 @@ label {
   margin-bottom: 0.5em; 
 }
 
-input[placeholder] {
+input[placeholder="Required"] {
     text-align: right;
 }
