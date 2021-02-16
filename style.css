@@ -1,29 +1,49 @@
 
+body {
+  margin: 0;
+  font-family: 'Merriweather Sans', sans-serif;
+
+
+}
+
 * {
-    box-sizing: border-box;
-    font-family: 'Merriweather Sans', sans-serif;
-
-    
+  box-sizing: border-box;
 }
 
-header {
-  background-color:rgb(19, 19, 56);
+h1 {
+  background-color: rgb(19, 19, 56);
   color: white;
-  padding: 5px;
+  margin: 0;
+  padding: 50px 30px;
 }
-
 
 
 p {
-    font-size: 16px;
-    padding-bottom: 40px;
-    border-bottom: 4px solid black;
-    font-weight: 100;
+  text-align: center;
+  border-right-width: 30px;
+  border-left-width: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 4px;
+  border-bottom: 10px double black;
+  padding-bottom: 30px;
+  
+}
+
+h1,
+h2,
+p {
+  text-align: center;
   }
 
-.main {
-    text-align: center;
+.contact {
+  text-align: left;
+  border-left-width: 2px;
+  margin-left: 3px;
+
 }
+
 
 
 input,
@@ -37,6 +57,7 @@ select {
   height: auto;
   padding: 15px;
   outline: 0;
+  margin-top: 20px;
   margin-bottom: 1.2em;
   border-radius: .3em;
   border-bottom: 3px solid rgba(0,0,0, 0.05);
@@ -44,14 +65,13 @@ select {
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
 }
 
-.area {
+label {
+  margin-bottom: 2px;
+}
+ .area {
   width: 50%;
   padding-bottom: 3em;
-}
-
-label {
-  display: block;
-  margin-bottom: 0.5em; 
+  border-width: 100%;
 }
 
 
@@ -63,3 +83,4 @@ input[placeholder="Required"] {
 input[placeholder="|"] {
   border: 2px solid darkblue;
 }
+
