@@ -10,40 +10,53 @@
     <title>Form</title>
 </head>
 <body>
-    <form action="index.html" method="post">
-     <div class="main-header">
+    <form class="inline" action="index.html" method="post">
        <h1>The Code Review</h1>
        <h2>Sign up for Our  newsletter</h2>
        <p class="first">Get the latest news on how your code is doing right in your box</p>
-     </div>
+     
 
-     <fieldset class="top">
+     <fieldset class="contact-info">
          <legend> Contact Information</legend>
+         <div class="container">
+          <div class="flex">
+            <label for="name">Full Name</label><br>
+            <input type="text" id="name" placeholder="Required" name="user_name"><br>
+          </div>
     
-        <label for="name">Full Name</label><br>
-        <input type="text" id="name" placeholder="Required" name="user_name"><br>
-
-        <label for="email">Email address</label><br>
-        <input type="email" id="email" placeholder="Required" name="user_email">
-
+        
+            <div class="flex">
+            <label for="email">Email address</label><br>
+            <input type="email" id="email" placeholder="Required" name="user_email">
+        </div>
     
-        <label for="phone">Phone Number</label><br>
-        <input type="tel" id="phone"  name="user_email" placeholder="123-45-678">
+            <div class="flex">
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" id="phone"  name="user_email" placeholder="123-45-678">
+        </div>
 
-        <label for="address">Street Address</label><br>
-        <input type="text" id="address" placeholder="|" name="user_address">
+            <div class="flex">
+            <label for="address">Street Address</label><br>
+            <input type="text" id="address" placeholder="|" name="user_address">
+        </div>
 
-        <label for="city">City</label><br>
-        <input type="text" id="city" name="user-city">
+            <div class="flex">
+            <label for="city">City</label><br>
+            <input type="text" id="city" name="user-city">
+        </div>
 
-        <label for="state">State</label><br>
-        <select id="state" name="user_state">
-            <option value="choose state">Choose State</option>
-        </select>
-   
-        <div class="area">
-        <label for="code">Zip Code</label><br>
-        <input type="text" id="text" name="user_zipcode">
+            <div class="flex">
+            <label for="state">State</label><br>
+            <select id="state" name="user_state">
+                <option value="choose state">Choose State</option>
+            </select>
+        </div>
+
+        <div class="flex">
+            <div class="area">
+            <label for="code">Zip Code</label><br>
+            <input type="text" id="text" name="user_zipcode">
+            </div>
         </div>
         </fieldset>
         
