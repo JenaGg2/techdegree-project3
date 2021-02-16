@@ -13,13 +13,12 @@
     <form action="index.html" method="post">
      <div class="main-header">
        <h1>The Code Review</h1>
-       <h2>Sign up for Our  newsLetter</h2>
-       <p>Get the latest news on how your code is doing right in your box</p>
+       <h2>Sign up for Our  newsletter</h2>
+       <p class="first">Get the latest news on how your code is doing right in your box</p>
      </div>
 
-     <fieldset>
-        <h2 class="contact">Contact Information</h2>
-
+     <fieldset class="top">
+         <legend> Contact Information</legend>
     
         <label for="name">Full Name</label><br>
         <input type="text" id="name" placeholder="Required" name="user_name"><br>
@@ -29,7 +28,7 @@
 
     
         <label for="phone">Phone Number</label><br>
-        <input type="tel" id="phone"  name="user_email">
+        <input type="tel" id="phone"  name="user_email" placeholder="123-45-678">
 
         <label for="address">Street Address</label><br>
         <input type="text" id="address" placeholder="|" name="user_address">
@@ -38,18 +37,38 @@
         <input type="text" id="city" name="user-city">
 
         <label for="state">State</label><br>
-        <select id="state" name="user_state" placeholder="Choose State">
+        <select id="state" name="user_state">
+            <option value="choose state">Choose State</option>
         </select>
    
         <div class="area">
         <label for="code">Zip Code</label><br>
         <input type="text" id="text" name="user_zipcode">
+        </div>
         </fieldset>
+        
+        <div class="bottom">
+         <fieldset>
+            <legend>Newsletter</legend>
+            
+                    <label>Select the newsletter you would like to receive</label><br><br>
+                    <input type="checkbox" id="html news" name="language" value="html" checked><label class="light" for="html news">HTML News</label><br>
+                    <input type="checkbox" id="css news" name="language" value="css"><label class="light" for="css news">CSS News </label><br>
+                    <input type="checkbox" id="javascript news" name="language" value="javascript"><label class="light" for="javascript news">Javascript News</label><br><br>
+            <legend>Newsletter format</legend><br>
+               <input type="radio" id="html" name="format" value="html" checked><label for="html">HTML</label><br><br>
+               <input type="radio" id="plain text"  name="format" value="plain text"><label for="plain text">Plain text</label>
+               <br><br>
 
+            <label for="topics">Other topics you would like to hearabout</label>
+             <textarea id="topics" name="topics" rows="5" col="33"></textarea>
+            <div class="sign">
+              <h3>Sign up</h3>
+            </div>
 
-        <fieldset>
-            <h2 class="contact">Newsletter</h2>
-</div>  
+            <footer>
+                <p><em>Copyright the code review</em></p>
+                </fieldset>
 </form>
 </body>
 </html>

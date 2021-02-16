@@ -3,7 +3,6 @@ body {
   margin: 0;
   font-family: 'Merriweather Sans', sans-serif;
 
-
 }
 
 * {
@@ -18,7 +17,7 @@ h1 {
 }
 
 
-p {
+.first {
   text-align: center;
   border-right-width: 30px;
   border-left-width: 20px;
@@ -44,9 +43,14 @@ p {
 
 }
 
+p {
+  line-height: 1.5em;;
+}
 
 
-input,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
 textarea,
 select {
   font-size: 1em;
@@ -71,11 +75,29 @@ label {
  .area {
   width: 50%;
   padding-bottom: 3em;
-  border-width: 100%;
+
+}
+
+.bottom {
+  border-top: 2px solid black;
+  margin-top: 30px;
+  border-width: 90%;
+}
+
+.news{
+  border-top: 2px solid black;
+  border-top-width: 3px;
+  margin-top: 30px;
+  padding-top: 30px;
+  text-align: left;
+
+
 }
 
 
-input[placeholder="Required"] {
+input[placeholder="Required"],
+input[placeholder="123-45-678"]
+ {
     text-align: right;
     
 }
@@ -84,3 +106,57 @@ input[placeholder="|"] {
   border: 2px solid darkblue;
 }
 
+
+input[type="checkbox"] + label.light {
+    display: inline-block;
+}
+
+input[type="radio"] {
+  padding-bottom: 5px;
+}
+
+input:focus {
+  background-color: rgb(187, 236, 87);
+  transition: width 2s;
+}
+
+fieldset {
+  border: 0;
+  
+}
+
+
+legend {
+  margin:0;
+  padding:0;
+  font-size: 20px;
+}
+
+
+
+.light {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  padding-bottom: 7px;
+}
+
+
+
+/* Bottom and footer  */
+
+h3 {
+  text-align: center;
+  width: 100%;
+  background-color: rgb(14, 222, 230);
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+footer {
+
+  padding-bottom: 300px;
+  font-weight: 600;
+}
