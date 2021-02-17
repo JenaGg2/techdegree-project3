@@ -53,6 +53,7 @@ p {
 input[type="text"],
 input[type="email"],
 input[type="tel"],
+input[type="zipcode"],
 textarea,
 select {
   font-size: 1em;
@@ -172,19 +173,42 @@ footer {
 
 @media screen and (min-width:768px) {
 
+.flex {
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px;
   
-  .contact-info{
-    display: flex;
-    justify-content: ;
-    
-  }
-    
+  
 
-  .flex {
-    float: left;
-    flex-direction: column;
-    flex: 1;
-  }
+}
 
-  }
+.flex label {
+  flex-basis: 25%;
+}
 
+
+.flex input, select {
+  flex-basis: 75%;
+}
+
+
+
+legend {
+
+margin-top: 20px;
+padding-top: 20px;
+padding-bottom: 40px;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"]
+input[type="zipcode"],
+select {
+  margin-top: 5px;
+}
+
+
+
+}
