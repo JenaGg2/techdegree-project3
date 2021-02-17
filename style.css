@@ -1,5 +1,5 @@
 
-
+/* General Selectors */
 * {
   box-sizing: border-box;
 }
@@ -18,7 +18,35 @@ h1 {
   padding: 50px 30px;
 }
 
+
+
+h1,
+h2,
+p {
+  text-align: center;
+  }
+
+/* Contact styling */
+
+
+  .contact-info {
+    border-bottom: 4px solid black;
+    ;
+  }
+ 
+  .contact-info legend{
+    padding-bottom: 20px;
+  }
+
+  .contact {
+    text-align: left;
+    border-left-width: 2px;
+    margin-left: 3px;
+  
+  }
+ 
 /* paragraph  */
+
 .first {
   text-align: center;
   border-right-width: 30px;
@@ -32,22 +60,11 @@ h1 {
   
 }
 
-h1,
-h2,
-p {
-  text-align: center;
-  }
-
-.contact {
-  text-align: left;
-  border-left-width: 2px;
-  margin-left: 3px;
-
-}
 
 p {
   line-height: 1.5em;;
 }
+
 
 
 input[type="text"],
@@ -74,6 +91,12 @@ select {
 label {
   margin-bottom: 2px;
 }
+
+
+fieldset {
+  border: 0;
+  }
+
  #code {
   width: 50%
  }
@@ -94,20 +117,11 @@ label {
 
  }
 
+p.topics {
 
-.news{
-  border-top: 2px solid black;
-  border-top-width: 3px;
-  margin-top: 30px;
-  padding-top: 30px;
-  text-align: left;
-
-
-}
-
-.topics {
   text-align: left;
 }
+
 
 
 input[placeholder="Required"],
@@ -118,6 +132,8 @@ input[placeholder="123-45-678"]
   
 }
 
+
+/* NewsLetter styling */
 
 input[type="checkbox"] + label.light {
     display: inline-block; 
