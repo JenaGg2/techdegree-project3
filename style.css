@@ -114,11 +114,14 @@ input[placeholder="Required"],
 input[placeholder="123-45-678"]
  {
     text-align: right;
-    
+    font-style: italic;
+    background-color: rgb(103, 149, 175);
+    font-weight: bolder;
 }
 
 input[placeholder="|"] {
   border: 2px solid darkblue;
+  
 }
 
 
@@ -132,7 +135,7 @@ input[type="radio"] {
 }
 
 input:focus {
-  background-color: rgb(187, 236, 87);
+  background-color: rgb(238, 186, 214);
   transition: width 2s;
 }
 
