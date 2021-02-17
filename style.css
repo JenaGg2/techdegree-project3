@@ -74,9 +74,8 @@ select {
 label {
   margin-bottom: 2px;
 }
- .area {
-  width: 30%;
-  padding-bottom: 3em;
+ #code {
+  width: 30%
  }
 
  .contact-info {
@@ -200,7 +199,9 @@ footer {
   flex-basis: 75%;
 }
 
-
+.flex #code {
+  flex-basis: 25%;
+}
 
 legend {
 
