@@ -53,7 +53,6 @@ p {
 input[type="text"],
 input[type="email"],
 input[type="tel"],
-input[type="zipcode"],
 textarea,
 select {
   font-size: 1em;
@@ -76,19 +75,26 @@ label {
   margin-bottom: 2px;
 }
  .area {
-  width: 50%;
+  width: 30%;
   padding-bottom: 3em;
+ }
 
-}
+ .contact-info {
+   border-bottom: 4px solid black;
+   ;
+ }
 
-.bottom {
-  border-top: 3px solid black;
-  margin-top: 0px;
-  padding-top: 40px;
+ .contact-info legend{
+   padding-bottom: 20px;
+ }
 
 
-  
-}
+ .letter {
+   
+  padding-top: 20px;
+
+ }
+
 
 .news{
   border-top: 2px solid black;
@@ -98,6 +104,10 @@ label {
   text-align: left;
 
 
+}
+
+.topics {
+  text-align: left;
 }
 
 
@@ -129,8 +139,7 @@ input:focus {
 
 fieldset {
   border: 0;
-  
-}
+  }
 
 
 legend {
@@ -203,8 +212,7 @@ padding-bottom: 40px;
 
 input[type="text"],
 input[type="email"],
-input[type="tel"]
-input[type="zipcode"],
+input[type="tel"],
 select {
   margin-top: 5px;
 }
