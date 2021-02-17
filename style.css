@@ -9,7 +9,7 @@ body {
   font-family: 'Merriweather Sans', sans-serif;
 
 }
-
+/* Header */
 
 h1 {
   background-color: rgb(19, 19, 56);
@@ -75,7 +75,7 @@ label {
   margin-bottom: 2px;
 }
  #code {
-  width: 30%
+  width: 50%
  }
 
  .contact-info {
@@ -115,12 +115,6 @@ input[placeholder="123-45-678"]
  {
     text-align: right;
     font-style: italic;
-    background-color: rgb(103, 149, 175);
-    font-weight: bolder;
-}
-
-input[placeholder="|"] {
-  border: 2px solid darkblue;
   
 }
 
@@ -135,8 +129,7 @@ input[type="radio"] {
 }
 
 input:focus {
-  background-color: rgb(238, 186, 214);
-  transition: width 2s;
+  border: 2px solid  darkcyan;
 }
 
 fieldset {
@@ -164,13 +157,15 @@ legend {
 
 /* Bottom and footer  */
 
-h3 {
+button {
   text-align: center;
   width: 100%;
   background-color: rgb(14, 222, 230);
   color: white;
   padding: 20px;
   border-radius: 5px;
+  font-size: 20px;
+  border-style: none;
 }
 
 footer {
