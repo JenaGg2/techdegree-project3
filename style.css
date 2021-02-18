@@ -151,10 +151,9 @@ input[type="radio"] {
 input,
 select, 
 textarea {
-  padding: 2rem;
   background-color: #ebf5f7;
   border: none;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 input:focus,
