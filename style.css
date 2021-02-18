@@ -129,6 +129,7 @@ input[placeholder="123-45-678"]
  {
     text-align: right;
     font-style: italic;
+    
   
 }
 
@@ -144,10 +145,17 @@ input[type="radio"] {
   padding-bottom: 5px;
 }
 
-input:focus {
-  border: 2px solid  darkcyan;
+input:focus
+ {
+  border: 2px solid  rgb(24, 54, 54);
 }
 
+
+input:hover {
+  background-color: thistle;
+  
+
+}
 fieldset {
   border: 0;
   }
